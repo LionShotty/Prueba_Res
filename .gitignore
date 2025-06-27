@@ -1,2 +1,7 @@
 node_modules
+<<<<<<< HEAD
 configuracion.js
+=======
+configuracion.js
+conexion.js
+>>>>>>> a5f59c0 (Configuracion en el archivo servidor para crear una conexion a la base de datos)
