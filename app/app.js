@@ -5,6 +5,6 @@ const routerPalapa = require('./routes/palapaRouter');
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/', routerPalapa);
+app.use('/palapa', routerPalapa);
 
 module.exports = app

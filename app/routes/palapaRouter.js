@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const palapaController = require('../controllers/palapaController');
 
-router.get('/bebidas', (req, res) => {
-    res.send('Hola Mundo')
-})
+router.get('/bebidas', palapaController.buscarTodo)
+.post('/bebidas', palapaController.agregar)
 
 module.exports = router;
